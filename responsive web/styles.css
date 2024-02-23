@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.main-div{
+    background-color: rgb(255, 176, 189);
+    width: 100%;
+    height: auto;
+    display: flex;
+
+}
+.logo-div{
+    height: 100%;
+    width: 100%;
+
+}
+.left-div{
+ 
+   background-color: aqua;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+   width:20%;
+}
+.right-div{
+    background-color: blue;
+    width: 80%;
+}
+
+.logo-div
+{
+    background-color: black;
+    height: 150px;
+    width: 150px;
+
+}
+.items-div{
+    background-color: brown;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.items{
+     width: 100%;
+     margin: 1rem;
+     display: flex;  
+     justify-content: center;
+     align-items: center;
+}
+.items-info{
+    margin-left:1rem ;
+}
+.contact-div{
+    background-color: violet;
+    display: flex;
+    height: auto;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.contact{
+    display: flex;
+    margin: 1rem;
+    width: auto;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.contact-item{
+    
+    margin: 1rem;
+}
+@media only screen and (max-width: 600px) {
+    .logo-div{
+        
+    }
+    .items-div{
+        width: ;
+        flex-direction: row;
+    }
+    .main-div{
+        flex-direction: column;
+    }
+    .left-div{
+        width: 100%;
+        height: 20vh;
+        flex-direction: row;
+    }
+    
+    .right-div{
+        height: 80vh;
+        width: 100%;
+    }
+    
+    
+  }
